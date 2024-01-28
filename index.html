@@ -1,0 +1,152 @@
+<!doctype html>
+<style>
+  .scale {
+    position: fixed;
+    box-sizing: border-box;
+    width: 2mm;
+
+    border-style: solid;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    
+    vertical-align: middle;
+  }
+  .scale-p {
+    left: 1cm;
+    height: 10%;
+    border-color: black;
+  }
+  .scale-v {
+    left: 2.5cm;
+    height: 10vh;
+    border-color: green;
+  }
+  .scale-lv {
+    left: 4cm;
+    height: 10lvh;
+    border-color: blue;
+  }
+  .scale-dv {
+    left: 5.5cm;
+    height: 10dvh;
+    border-color: purple;
+  }
+  .scale-sv {
+    left: 7cm;
+    height: 10dvh;
+    border-color: red;
+  }
+  .scale-p-0 { top: 0; }
+  .scale-p-1 { top: 10%; }
+  .scale-p-2 { top: 20%; }
+  .scale-p-3 { top: 30%; }
+  .scale-p-4 { top: 40%; }
+  .scale-p-5 { top: 50%; }
+  .scale-p-6 { top: 60%; }
+  .scale-p-7 { top: 70%; }
+  .scale-p-8 { top: 80%; }
+  .scale-p-9 { top: 90%; }
+  .scale-v-0 { top: 0; }
+  .scale-v-1 { top: 10vh; }
+  .scale-v-2 { top: 20vh; }
+  .scale-v-3 { top: 30vh; }
+  .scale-v-4 { top: 40vh; }
+  .scale-v-5 { top: 50vh; }
+  .scale-v-6 { top: 60vh; }
+  .scale-v-7 { top: 70vh; }
+  .scale-v-8 { top: 80vh; }
+  .scale-v-9 { top: 90vh; }
+  .scale-lv-0 { top: 0; }
+  .scale-lv-1 { top: 10lvh; }
+  .scale-lv-2 { top: 20lvh; }
+  .scale-lv-3 { top: 30lvh; }
+  .scale-lv-4 { top: 40lvh; }
+  .scale-lv-5 { top: 50lvh; }
+  .scale-lv-6 { top: 60lvh; }
+  .scale-lv-7 { top: 70lvh; }
+  .scale-lv-8 { top: 80lvh; }
+  .scale-lv-9 { top: 90lvh; }
+  .scale-dv-0 { top: 0; }
+  .scale-dv-1 { top: 10dvh; }
+  .scale-dv-2 { top: 20dvh; }
+  .scale-dv-3 { top: 30dvh; }
+  .scale-dv-4 { top: 40dvh; }
+  .scale-dv-5 { top: 50dvh; }
+  .scale-dv-6 { top: 60dvh; }
+  .scale-dv-7 { top: 70dvh; }
+  .scale-dv-8 { top: 80dvh; }
+  .scale-dv-9 { top: 90dvh; }
+  .scale-sv-0 { top: 0; }
+  .scale-sv-1 { top: 10svh; }
+  .scale-sv-2 { top: 20svh; }
+  .scale-sv-3 { top: 30svh; }
+  .scale-sv-4 { top: 40svh; }
+  .scale-sv-5 { top: 50svh; }
+  .scale-sv-6 { top: 60svh; }
+  .scale-sv-7 { top: 70svh; }
+  .scale-sv-8 { top: 80svh; }
+  .scale-sv-9 { top: 90svh; }
+
+  .body {
+    max-width: 15cm;
+    color: #dddddd;
+  }
+</style>
+<div class="scale scale-p scale-p-0">10%</div>
+<div class="scale scale-p scale-p-1">10%</div>
+<div class="scale scale-p scale-p-2">10%</div>
+<div class="scale scale-p scale-p-3">10%</div>
+<div class="scale scale-p scale-p-4">10%</div>
+<div class="scale scale-p scale-p-5">10%</div>
+<div class="scale scale-p scale-p-6">10%</div>
+<div class="scale scale-p scale-p-7">10%</div>
+<div class="scale scale-p scale-p-8">10%</div>
+<div class="scale scale-p scale-p-9">10%</div>
+<div class="scale scale-v scale-v-0">10vh</div>
+<div class="scale scale-v scale-v-1">10vh</div>
+<div class="scale scale-v scale-v-2">10vh</div>
+<div class="scale scale-v scale-v-3">10vh</div>
+<div class="scale scale-v scale-v-4">10vh</div>
+<div class="scale scale-v scale-v-5">10vh</div>
+<div class="scale scale-v scale-v-6">10vh</div>
+<div class="scale scale-v scale-v-7">10vh</div>
+<div class="scale scale-v scale-v-8">10vh</div>
+<div class="scale scale-v scale-v-9">10vh</div>
+<div class="scale scale-lv scale-lv-0">10lvh</div>
+<div class="scale scale-lv scale-lv-1">10lvh</div>
+<div class="scale scale-lv scale-lv-2">10lvh</div>
+<div class="scale scale-lv scale-lv-3">10lvh</div>
+<div class="scale scale-lv scale-lv-4">10lvh</div>
+<div class="scale scale-lv scale-lv-5">10lvh</div>
+<div class="scale scale-lv scale-lv-6">10lvh</div>
+<div class="scale scale-lv scale-lv-7">10lvh</div>
+<div class="scale scale-lv scale-lv-8">10lvh</div>
+<div class="scale scale-lv scale-lv-9">10lvh</div>
+<div class="scale scale-dv scale-dv-0">10dvh</div>
+<div class="scale scale-dv scale-dv-1">10dvh</div>
+<div class="scale scale-dv scale-dv-2">10dvh</div>
+<div class="scale scale-dv scale-dv-3">10dvh</div>
+<div class="scale scale-dv scale-dv-4">10dvh</div>
+<div class="scale scale-dv scale-dv-5">10dvh</div>
+<div class="scale scale-dv scale-dv-6">10dvh</div>
+<div class="scale scale-dv scale-dv-7">10dvh</div>
+<div class="scale scale-dv scale-dv-8">10dvh</div>
+<div class="scale scale-dv scale-dv-9">10dvh</div>
+<div class="scale scale-sv scale-sv-0">10svh</div>
+<div class="scale scale-sv scale-sv-1">10svh</div>
+<div class="scale scale-sv scale-sv-2">10svh</div>
+<div class="scale scale-sv scale-sv-3">10svh</div>
+<div class="scale scale-sv scale-sv-4">10svh</div>
+<div class="scale scale-sv scale-sv-5">10svh</div>
+<div class="scale scale-sv scale-sv-6">10svh</div>
+<div class="scale scale-sv scale-sv-7">10svh</div>
+<div class="scale scale-sv scale-sv-8">10svh</div>
+<div class="scale scale-sv scale-sv-9">10svh</div>
+
+<div class="body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a augue nec sem semper malesuada vel et purus. Nulla dignissim dignissim felis, sagittis faucibus diam finibus consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec interdum iaculis urna, pulvinar eleifend lorem posuere vitae. Aenean nec ultrices turpis. Fusce mattis dolor in ullamcorper lobortis. In venenatis ex semper tortor feugiat volutpat.</p>
+
+<p>Vestibulum in lacinia magna, sed convallis felis. Aliquam cursus ultricies nulla ac congue. Praesent bibendum turpis nisl, vitae rhoncus urna pellentesque eget. Quisque ac volutpat est. Maecenas posuere ornare purus, vitae viverra nulla mollis vitae. Maecenas a finibus ligula. Ut dapibus ipsum in dapibus maximus. Duis quis velit id augue tristique tincidunt. Vestibulum eu dignissim lectus. Etiam hendrerit vehicula cursus. Fusce porta sapien in mauris maximus, in viverra tortor facilisis. Nullam erat metus, convallis quis rutrum et, facilisis sed lorem. Vivamus fringilla porta mattis. Maecenas sed dolor a nibh volutpat eleifend. Suspendisse aliquet placerat sem. Phasellus hendrerit lorem nisi, quis accumsan nunc aliquam vitae.</p>
+</div>
